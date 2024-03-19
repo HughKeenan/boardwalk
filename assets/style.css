@@ -18,6 +18,23 @@ main{
     background-color: chartreuse;
 }
 
+
+/*Footer styling rules*/
 footer{
-    background-color:coral;
+    background-color:rgb(197, 50, 50);
+}
+
+#socials{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sociallink{
+    font-size: 200%;
+    
+}
+
+.socialcolor{
+    color:antiquewhite;
 }

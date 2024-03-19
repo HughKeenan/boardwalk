@@ -3,5 +3,9 @@ The Boardwalk School of Acting is an amateur dramatic society based in the south
 
 Users of this site will learn about what the school offers as well as class times, pricing information and the benefits of acting as a hobby. The target user for this site is anyone based in the south-east of Ireland who wishes to pursue stage acting.
 
+External sources used:
+Tips in how to best use felxboxes to display links in the footer were obtained from https://css-tricks.com/almanac/properties/a/align-items/
+
 Bugs encountered:
 Icons for social media links initially would not display. This was resolved after re-examining the code and realising the embed kit from FontAwesome had not been added
+Could not change color on social media icons. This was resolved after removing a second class tag from the HTML and putting the class name in the initial one.
