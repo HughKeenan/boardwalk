@@ -13,4 +13,4 @@ Could not change color on social media icons. This was resolved after removing a
 
 Nav links were initially unresponsive and produced a 404 error. After review of information contained in the following link https://www.geeksforgeeks.org/how-to-create-links-to-sections-within-the-same-page-in-html/ it was determined that href links had not been equipped with the # symbol to denote the destination. Once added they were responsive.
 
-When attempting to add images, the initial attempt to add in html resulted in an image too large for the page. A second attempt to add through css did not display the whole image
+When attempting to add images, the initial attempt to add in html resulted in an image too large for the page. A second attempt to add through css did not display the whole image.
