@@ -15,25 +15,30 @@ header{
 }
 
 /*Navbar style rules*/
+/*The navbar itself*/
+nav{
+    position:relative;
+    display:none; 
+}
 
+/*navbar display ids*/
+#navbar{
+    display:none;
+}
+
+#navbar:checked~nav{
+    display:block;
+}
+
+/*The list of links in the navbar*/
 #navlinks{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
 }
 
-nav{
-    position:relative;
-    display:none; 
 
-}
-
-#navbar:checked~nav{
-    display:block;
-}
 /*Main content style rules*/
-
-
 main{
     background-color: chartreuse;
 }
@@ -58,3 +63,20 @@ footer{
 .socialcolor{
     color:antiquewhite;
 }
+
+
+/*Navbar media query for tablets and larger devices*/
+@media screen and (min-width: 768px) {
+ 
+    nav {
+        display:block;
+    }
+
+    #navbar{
+        display: none;
+    }
+
+    #menu{
+        display:none;
+    }
+    
