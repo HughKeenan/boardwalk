@@ -14,10 +14,22 @@ header{
     background-color: aqua;
 }
 
+/*Navbar style rules*/
+
 #navlinks{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+}
+
+nav{
+    position:relative;
+    display:none; 
+
+}
+
+#navbar:checked~nav{
+    display:block;
 }
 /*Main content style rules*/
 
