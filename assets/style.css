@@ -43,6 +43,25 @@ main{
     background-color: chartreuse;
 }
 
+#about{
+    display:flex;
+    justify-content:right;
+}
+
+#whitedress{
+    max-height: 200px;
+    max-width: 100px;
+}
+
+#why-us{
+    display:flex;
+    justify-content: space-between;
+}
+
+#curtains{
+    max-height: 200px;
+    max-width: 100px;
+}
 
 /*Footer styling rules*/
 footer{
@@ -79,4 +98,3 @@ footer{
     #menu{
         display:none;
     }
-    
