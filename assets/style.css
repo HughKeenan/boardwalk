@@ -86,7 +86,7 @@ footer{
 
 /*Navbar media query for tablets and larger devices*/
 @media screen and (min-width: 768px) {
- 
+ /*Navbar*/
     nav {
         display:block;
     }
@@ -98,3 +98,4 @@ footer{
     #menu{
         display:none;
     }
+
