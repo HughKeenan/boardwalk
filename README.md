@@ -15,4 +15,4 @@ Nav links were initially unresponsive and produced a 404 error. After review of 
 
 When attempting to add images, the initial attempt to add in html resulted in an image too large for the page. A second attempt to add through css did not display the whole image.
 
-After adding the form, initially clicking on submit provided no feedback.
+After adding the form, initially clicking on submit provided no feedback. It emerged on reexamining the code that the action had not been properly set. Once added, the form worked as intended.
