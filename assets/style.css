@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&family=Days+One&display=swap');
 
 /*General styling rules*/
-h1, h2, h3, #navlinks {
+h1, h2, h3, #navlinks, #menu {
     font-family: "Days One";
     color:antiquewhite;
 }
@@ -13,7 +13,7 @@ p, td{
 }
 
 header{
-    background-color: aqua;
+    background-color:rgb(197, 50, 50);
 }
 
 /*Navbar style rules*/
@@ -35,7 +35,7 @@ nav{
 /*The list of links in the navbar*/
 #navlinks{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style-type: none;
 }
 
@@ -47,22 +47,20 @@ main{
 
 #about{
     display:flex;
-    justify-content:right;
+    flex-direction: column;
 }
+
 
 #whitedress{
-    max-height: 200px;
-    max-width: 100px;
+    height: 400px;
+    width: 250px;
 }
 
-#why-us{
-    display:flex;
-    justify-content: space-between;
-}
+
 
 #curtains{
-    max-height: 200px;
-    max-width: 100px;
+    height: 150px;
+    width: 250px;
 }
 
 /*Sign up page styles*/
@@ -95,7 +93,6 @@ footer{
 
 .sociallink{
     font-size: 200%;
-    
 }
 
 .socialcolor{
@@ -118,3 +115,30 @@ footer{
         display:none;
     }
 
+    /*Main content*/
+    #about{
+        display:flex;
+        flex-direction: row;
+    }
+
+    #about-info{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        max-width: 1250px;
+    }
+
+    #curtains{
+        height:300px;
+        width:500px;
+    }
+
+    #why-us{
+        display:flex;
+    }
+
+    #why-us-info{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        max-width: 1250px;
