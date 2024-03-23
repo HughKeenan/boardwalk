@@ -23,19 +23,20 @@
     </header>
     <main>
         <section>
-            <h2>Sign up to join and receive updates on future courses and productions!</h2>
+            <h2 id = join-h2>Sign up to join and receive updates on future courses and productions!</h2>
+            <div id = join>
             <form action = https://formdump.codeinstitute.net method = "POST">
-                <label for=name>Name:</label>
+                <label for=name class = "formclass">Name:</label>
                 <input type= text name = "Full Name" id=name required>
                     <br>
-                    <label for=email>Email:</label>
+                    <label for=email class = "formclass">Email:</label>
                     <input type =email name = "Email Address" id=email required>
                         <br>
                         <div>
                             <p>Have you ever acted before?</p>
-                            <label for=yes>Yes</label>
+                            <label for=yes class = "formclass">Yes</label>
                             <input type=radio id=yes name="Acted Before" value="Yes" required>
-                            <label for=no>No</label>
+                            <label for=no class = "formclass">No</label>
                             <input type=radio id=no name="Acted Before" value="No" required>
                             <br>
                             <textarea id=moreinfo cols="33" rows="15"
@@ -43,6 +44,7 @@
                         </div>
                         <input type=submit>
             </form>
+            </div>
         </section>
     </main>
     <footer>
