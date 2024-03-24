@@ -1,6 +1,11 @@
 /*Imported from Google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&family=Days+One&display=swap');
 
+*{
+    padding:0;
+    margin:0;
+}
+
 /*General styling rules*/
 h1, h2, h3, #navlinks, #menu {
     font-family: "Days One";
@@ -14,6 +19,7 @@ p, td{
 
 header{
     background-color:rgb(197, 50, 50);
+    margin-bottom: 0;
 }
 
 /*Navbar style rules*/
@@ -44,19 +50,19 @@ nav{
 main{
     background-color: black;
 }
+ footer{
+   padding: 0px;
+}
 
 #about{
     display:flex;
     flex-direction: column;
 }
 
-
 #whitedress{
     height: 400px;
     width: 250px;
 }
-
-
 
 #curtains{
     height: 150px;
