@@ -23,13 +23,11 @@ header{
 }
 
 /*Navbar style rules*/
-/*The navbar itself*/
 nav{
     position:relative;
     display:none; 
 }
 
-/*navbar display ids*/
 #navbar{
     display:none;
 }
@@ -38,7 +36,6 @@ nav{
     display:block;
 }
 
-/*The list of links in the navbar*/
 #navlinks{
     display: flex;
     justify-content: space-evenly;
@@ -70,7 +67,6 @@ main{
 }
 
 /*Sign up page styles*/
-
 #join{
     display: flex;
     justify-content: center;
@@ -148,3 +144,11 @@ footer{
         flex-direction: column;
         justify-content: space-evenly;
         max-width: 1250px;
+    }
+
+    /*Signup page*/
+    #join{
+        display: flex;
+        justify-content: center;
+        height: 75vh;
+    }
