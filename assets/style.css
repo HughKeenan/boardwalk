@@ -146,6 +146,12 @@ footer{
         max-width: 1250px;
     }
 
+    /*Classes rules*/
+
+    table{
+        width: 500px;
+    }
+
     /*Signup page*/
     #join{
         display: flex;
