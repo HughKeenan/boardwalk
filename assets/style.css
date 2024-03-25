@@ -66,6 +66,12 @@ main{
     width: 250px;
 }
 
+/*Classes page rules*/
+#masks{
+    height:150px;
+    width:275px;
+}
+
 /*Sign up page styles*/
 #join{
     display: flex;
@@ -150,6 +156,18 @@ footer{
 
     table{
         width: 500px;
+        height: 150px;
+        padding-top: 65px; 
+    }
+
+    #classinfo{
+        display:flex;
+        justify-content: space-evenly;
+    }
+
+    #masks{
+        height: 250px;
+        width:500px;
     }
 
     /*Signup page*/
