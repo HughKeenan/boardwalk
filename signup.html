@@ -10,6 +10,11 @@
         content="acting, actors, theatre, boardwalk, acting lessons, drama, drama club, workshops, Carlow, Leinster">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Boardwalk Acting School</title>
+    <link rel=icon type="image/png" sizes=192x192 href="assets/favicon/android-chrome-192x192.png">
+    <link rel=icon type="image/png" sizes=512x512 href="assets/favicon/android-chrome-512x512.png">
+    <link rel=icon type="image/png" sizes=32x32 href="assets/favicon/favicon-32x32.png">
+    <link rel=icon type="image/png" sizes=16x16 href="assets/favicon/favicon-16x16.png">
+    <link rel=apple-touch-icon type="image/png" sizes=180x180 href="assets/favicon/apple-touch-icon.png">
 </head>
 
 <body>
@@ -19,39 +24,48 @@
         <label for=navbar id=menu>Menu</label>
         <nav>
             <ul id="navlinks">
-                <li><a href="index.html" class = linkcolor>Home</a></li>
-                <li><a href="classes.html" class = linkcolor>Classes</a></li>
-                <li><a href="signup.html" class = linkcolor>Join</a></li>
+                <li><a href="index.html" class=linkcolor>Home</a></li>
+                <li><a href="classes.html" class=linkcolor>Classes</a></li>
+                <li><a href="signup.html" class=linkcolor>Join</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section>
             <br>
-            <h2 id = join-h2 class = infotitle>Sign up to join and receive updates on future courses and productions!</h2>
+            <h2 id=join-h2 class=infotitle>Sign up to join and receive updates on future courses and productions!</h2>
             <br>
-            <div id = join>
-            <form action = https://formdump.codeinstitute.net method = "POST">
-                <label for=name class = "formclass">Name:</label>
-                <input type= text name = "Full Name" id=name required>
+            <div id=join>
+                <form action=https://formdump.codeinstitute.net method="POST">
+                    <label for=name class="formclass">Name:</label>
+                    <input type=text name="Full Name" id=name required>
                     <br>
-                    <label for=email class = "formclass">Email:</label>
-                    <input type =email name = "Email Address" id=email required>
+                    <label for=email class="formclass">Email:</label>
+                    <input type=email name="Email Address" id=email required>
+                    <br>
+                    <div>
+                        <p>Have you ever acted before?</p>
+                        <label for=yes class="formclass">Yes</label>
+                        <input type=radio id=yes name="Acted Before" value="Yes" required>
+                        <label for=no class="formclass">No</label>
+                        <input type=radio id=no name="Acted Before" value="No" required>
                         <br>
-                        <div>
-                            <p>Have you ever acted before?</p>
-                            <label for=yes class = "formclass">Yes</label>
-                            <input type=radio id=yes name="Acted Before" value="Yes" required>
-                            <label for=no class = "formclass">No</label>
-                            <input type=radio id=no name="Acted Before" value="No" required>
-                            <br>
-                            <textarea id=moreinfo cols="33" rows="15"
-                                placeholder="Tell us more about your prior experience" name = "Prior Experience"></textarea>
-                        </div>
-                        <input type=submit>
-            </form>
-            <br>
+                        <textarea id=moreinfo cols="33" rows="15" placeholder="Tell us more about your prior experience"
+                            name="Prior Experience"></textarea>
+                    </div>
+                    <input type=submit>
+                </form>
+                <br>
             </div>
+            <div>
+                <h2>Contact us</h2>
+                <p>For any queries please call 0871497282, or visit us in our office at Room 2, Visual Carlow, Old
+                    Dublin Road, Carlow, R93 A3K1</p>
+            </div>
+            <div style="width: 50%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0"
+                    marginwidth="0"
+                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Visual%20Carlow,%20Old%20Dublin%20Road,%20Carlow,%20R93%20A3K1+(Carlow%20Visual)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                        href="https://www.gps.ie/">gps tracker sport</a></iframe></div>
         </section>
     </main>
     <footer>

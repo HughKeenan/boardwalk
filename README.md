@@ -57,3 +57,7 @@ Icons for social media links were taken from font awesome.
 Tips in how to best use flexboxes to display links in the footer were obtained from https://css-tricks.com/almanac/properties/a/align-items/
 
 Information on how to fix navlinks was found here: https://www.geeksforgeeks.org/how-to-create-links-to-sections-within-the-same-page-in-html/
+
+The code for embedding the map was taken from here: https://www.maps.ie/create-google-map/
+
+The favicon came from here: https://favicon.io/emoji-favicons/performing-arts
