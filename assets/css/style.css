@@ -105,6 +105,10 @@ td, th{
     color:antiquewhite;
 }
 
+#map{
+    width: 100%;
+}
+
 /*Footer styling rules*/
 footer{
     background-color:rgb(197, 50, 50);
@@ -197,5 +201,18 @@ footer{
         display: flex;
         justify-content: center;
         height: 75vh;
+    }
+
+    #contactmap{
+        display:flex;
+        justify-content: space-evenly;
+    }
+    
+    #map{
+        width:75%;
+    }
+
+    #office{
+        width:25%;
     }
 }
