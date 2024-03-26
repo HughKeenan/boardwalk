@@ -12,7 +12,11 @@ h1, h2, h3, #navlinks, #menu {
     color:antiquewhite;
 }
 
-p, td{
+.linkcolor{
+    color:antiquewhite;
+}
+
+p{
     font-family:'Battambang';
     color:antiquewhite;
 }
@@ -20,6 +24,10 @@ p, td{
 header{
     background-color:rgb(197, 50, 50);
     margin-bottom: 0;
+}
+
+.infotitle{
+    text-align: center;
 }
 
 /*Navbar style rules*/
@@ -56,8 +64,8 @@ main{
     flex-direction: column;
 }
 
-#whitedress{
-    height: 400px;
+#crown{
+    height: 150px;
     width: 250px;
 }
 
@@ -70,6 +78,15 @@ main{
 #masks{
     height:150px;
     width:275px;
+}
+
+td, th{
+    font-family:'Battambang';
+    color:antiquewhite;
+}
+
+.tablehead{
+    font-weight: 1000;
 }
 
 /*Sign up page styles*/
@@ -137,8 +154,13 @@ footer{
     }
 
     #curtains{
-        height:300px;
-        width:500px;
+        width: 768px;
+        height: 400px;
+    }
+
+    #crown{
+        width: 768px;
+        height: 400px;
     }
 
     #why-us{
@@ -166,8 +188,8 @@ footer{
     }
 
     #masks{
-        height: 250px;
-        width:500px;
+        width: 768px;
+        height: 400px;
     }
 
     /*Signup page*/
