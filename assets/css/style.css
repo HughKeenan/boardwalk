@@ -64,6 +64,16 @@ main{
     flex-direction: column;
 }
 
+#hero{
+    height: 150px;
+    width: 250px;
+}
+
+#herobox{
+    display:flex;
+    justify-content: center;
+}
+
 #crown{
     height: 150px;
     width: 250px;
@@ -155,7 +165,7 @@ footer{
 }
 
 
-/*Navbar media query for tablets and larger devices*/
+/*Media query for tablets and larger devices*/
 @media screen and (min-width: 768px) {
  /*Navbar*/
     nav {
@@ -171,6 +181,16 @@ footer{
     }
 
     /*Main content*/
+    #hero{
+        width: 768px;
+        height: 400px;
+    }
+    
+    #herobox{
+        display:flex;
+        justify-content: center;
+    }
+
     #about{
         display:flex;
         flex-direction: row;
