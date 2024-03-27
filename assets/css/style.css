@@ -89,6 +89,32 @@ td, th{
     font-weight: 1000;
 }
 
+#quarterlies{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.infoborder{
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+}
+
+#soundboard{
+    height: 150px;
+    width: 250px;
+}
+
+#musical{
+    height: 150px;
+    width: 250px;
+}
+
+#combat{
+    height: 150px;
+    width: 250px;
+}
+
 /*Sign up page styles*/
 #join{
     display: flex;
@@ -186,6 +212,12 @@ footer{
         padding-top: 65px; 
     }
 
+    #quarterlies{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
     #classinfo{
         display:flex;
         justify-content: space-evenly;
@@ -194,6 +226,21 @@ footer{
     #masks{
         width: 768px;
         height: 400px;
+    }
+
+    #soundboard{
+        width:500px;
+        height:250px;
+    }
+
+    #musical{
+        width:500px;
+        height:250px;
+    }
+
+    #combat{
+        width:500px;
+        height:250px;
     }
 
     /*Signup page*/
