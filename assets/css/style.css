@@ -1,58 +1,63 @@
 /*Imported from Google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&family=Days+One&display=swap');
 
-*{
-    padding:0;
-    margin:0;
+* {
+    padding: 0;
+    margin: 0;
 }
 
 /*General styling rules*/
-h1, h2, h3, #navlinks, #menu, alt {
+h1,
+h2,
+h3,
+#navlinks,
+#menu,
+alt {
     font-family: "Days One";
-    color:antiquewhite;
+    color: antiquewhite;
 }
 
-.linkcolor{
-    color:antiquewhite;
+.linkcolor {
+    color: antiquewhite;
 }
 
-p{
-    font-family:'Battambang';
-    color:antiquewhite;
+p {
+    font-family: 'Battambang';
+    color: antiquewhite;
     padding-left: 10px;
-    padding-right:10px;
+    padding-right: 10px;
 }
 
-header{
-    background-color:rgb(197, 50, 50);
+header {
+    background-color: rgb(197, 50, 50);
     margin-bottom: 0;
 }
 
-.infotitle{
+.infotitle {
     text-align: center;
 }
 
 /*Navbar style rules*/
-#title{
+#title {
     padding-left: 10px;
     padding-top: 5px;
-    padding-right:10px;
+    padding-right: 10px;
 }
 
-nav{
-    position:relative;
-    display:none; 
+nav {
+    position: relative;
+    display: none;
 }
 
-#navbar{
-    display:none;
+#navbar {
+    display: none;
 }
 
-#navbar:checked~nav{
-    display:block;
+#navbar:checked~nav {
+    display: block;
 }
 
-#navlinks{
+#navlinks {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
@@ -60,81 +65,83 @@ nav{
 
 
 /*Main content general rules*/
-main{
+main {
     background-color: black;
 }
- footer{
-   padding: 0px;
+
+footer {
+    padding: 0px;
 }
 
 /*Home page rules*/
-#hero{
+#hero {
     height: 160px;
     width: 320px;
     padding-top: 15px;
 }
 
-#herobox{
-    display:flex;
+#herobox {
+    display: flex;
     justify-content: center;
 }
 
-#about{
-    display:flex;
+#about {
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#crown{
+#crown {
     height: 150px;
     width: 250px;
 }
 
-#why-us{
-    display:flex;
+#why-us {
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#curtains{
+#curtains {
     height: 150px;
     width: 250px;
 }
 
 /*Classes page rules*/
-#masks{
-    height:150px;
-    width:300px;
+#masks {
+    height: 150px;
+    width: 300px;
 }
 
-#classinfo{
+#classinfo {
     display: flex;
     flex-direction: column;
 }
 
-#maskbox{
+#maskbox {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-table{
-    padding-left:10px;
-    padding-right:10px;
+table {
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 10px;
 }
 
-td, th{
-    font-family:'Battambang';
-    color:antiquewhite;
+td,
+th {
+    font-family: 'Battambang';
+    color: antiquewhite;
 }
 
-.tablehead{
+.tablehead {
     font-weight: 1000;
 }
 
-#quarterlies{
-    display:flex;
+#quarterlies {
+    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding-left: 10px;
@@ -143,7 +150,7 @@ td, th{
     padding-bottom: 10px;
 }
 
-.quarterly-info{
+.quarterly-info {
     border: 2px solid antiquewhite;
     border-radius: 10px;
     display: flex;
@@ -151,38 +158,41 @@ td, th{
     align-items: center;
 }
 
-#soundboard{
+#musical {
     height: 150px;
     width: 250px;
+    padding-bottom: 10px;
 }
 
-#musical{
+#soundboard {
     height: 150px;
     width: 250px;
+    padding-bottom: 10px;
 }
 
-#combat{
+#combat {
     height: 150px;
     width: 250px;
+    padding-bottom: 10px;
 }
 
 /*Sign up page styles*/
-#join{
+#join {
     display: flex;
     justify-content: center;
 }
 
-#join-h2{
+#join-h2 {
     display: flex;
     justify-content: center;
 }
 
-.formclass{
+.formclass {
     font-family: 'Battambang';
-    color:antiquewhite;
+    color: antiquewhite;
 }
 
-#office{
+#office {
     padding-left: 10px;
     padding-top: 10px;
     padding-right: 10px;
@@ -190,12 +200,12 @@ td, th{
 }
 
 
-#office-h2{
+#office-h2 {
     display: flex;
     justify-content: center;
 }
 
-#map{
+#map {
     padding-left: 10px;
     padding-top: 10px;
     padding-right: 10px;
@@ -205,117 +215,147 @@ td, th{
 }
 
 /*Footer styling rules*/
-footer{
-    background-color:rgb(197, 50, 50);
+footer {
+    background-color: rgb(197, 50, 50);
 }
 
-#socials{
-    display:flex;
+#socials {
+    display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.sociallink{
+.sociallink {
     font-size: 200%;
 }
 
-.socialcolor{
-    color:antiquewhite;
+.socialcolor {
+    color: antiquewhite;
 }
 
 /*Media query for tablets and larger devices*/
 @media screen and (min-width: 768px) {
-    /*Navbar*/
-       nav {
-           display:block;
-       }
-   
-       #navbar{
-           display: none;
-       }
-   
-       #menu{
-           display:none;
-       }
 
-       #hero{
+    /*Navbar*/
+    nav {
+        display: block;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #hero {
         width: 672px;
         height: 350px;
         padding-left: 10px;
         padding-right: 10px;
     }
 
-       #crown{
+    #crown {
         width: 576px;
         height: 300px;
         padding-bottom: 10px;
     }
 
-    #curtains{
+    #masks {
+        width: 576px;
+        height: 300px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    #curtains {
         width: 576px;
         height: 300px;
         padding-top: 10px;
     }
 
+    #musical {
+        width: 576px;
+        height: 300px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
-/*Media query for tablets and larger devices*/
+    #soundboard {
+        width: 576px;
+        height: 300px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #combat {
+        width: 576px;
+        height: 300px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+}
+
+/*Media query for laptops and larger devices*/
 @media screen and (min-width: 1024px) {
- /*Navbar*/
+
+    /*Navbar*/
     nav {
-        display:block;
+        display: block;
     }
 
-    #navbar{
+    #navbar {
         display: none;
     }
 
-    #menu{
-        display:none;
+    #menu {
+        display: none;
     }
 
     /*Main content*/
-    #hero{
+    #hero {
         width: 960px;
         height: 500px;
         padding-left: 10px;
         padding-right: 10px;
     }
-    
-    #herobox{
-        display:flex;
+
+    #herobox {
+        display: flex;
         justify-content: center;
     }
 
-    #about{
-        display:flex;
+    #about {
+        display: flex;
         flex-direction: row;
     }
 
-    #about-info{
-        display:flex;
+    #about-info {
+        display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         max-width: 1250px;
     }
 
-    #crown{
+    #crown {
         width: 768px;
         height: 400px;
     }
 
-    #curtains{
+    #curtains {
         width: 768px;
         height: 400px;
     }
 
-    #why-us{
-        display:flex;
+    #why-us {
+        display: flex;
         flex-direction: row;
     }
 
-    #why-us-info{
-        display:flex;
+    #why-us-info {
+        display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         max-width: 1250px;
@@ -323,63 +363,101 @@ footer{
 
     /*Classes rules*/
 
-    #classinfo{
-        display:flex;
-        flex-direction:row;
-        justify-content: space-evenly;
-    }
-
-    #masks{
-        width: 768px;
-        height: 400px;
-        padding-right:10px;
-        padding-bottom: 10px;
-    }
-
-    table{
-        width: 500px;
-        height: 150px;
-        padding-top: 65px; 
-    }
-
-    #quarterlies{
-        display:flex;
+    #classinfo {
+        display: flex;
         flex-direction: row;
         justify-content: space-evenly;
     }
 
-    #soundboard{
-        width:500px;
-        height:250px;
+    #masks {
+        width: 480px;
+        height: 300px;
+        padding-right: 10px;
+        padding-bottom: 10px;
     }
 
-    #musical{
-        width:500px;
-        height:250px;
+    table {
+        width: 500px;
+        height: 150px;
+        padding-top: 65px;
     }
 
-    #combat{
-        width:500px;
-        height:250px;
+    #quarterlies {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        max-width: 100vh;
+    }
+
+    #musical {
+        width: 30vh;
+        height: 16vh;
+    }
+
+    #soundboard {
+        width: 30vh;
+        height: 16vh;
+    }
+
+    #combat {
+        width: 30vh;
+        height: 16vh;
     }
 
     /*Signup page*/
-    #join{
+    #join {
         display: flex;
         justify-content: center;
         height: 55vh;
     }
 
-    #contactmap{
-        display:flex;
+    #contactmap {
+        display: flex;
         justify-content: space-evenly;
     }
-    
-    #map{
-        width:75%;
+
+    #map {
+        width: 75%;
     }
 
-    #office{
-        width:25%;
+    #office {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    /*Navbar*/
+    nav {
+        display: block;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #quarterlies {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+    }
+
+    #musical {
+        width: 470px;
+        height: 235px;
+    }
+
+    #soundboard {
+        width: 470px;
+        height: 235px;
+    }
+
+    #combat {
+        width: 470px;
+        height: 235px;
     }
 }
