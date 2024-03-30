@@ -7,12 +7,7 @@
 }
 
 /*General styling rules*/
-h1,
-h2,
-h3,
-#navlinks,
-#menu,
-alt {
+h1,h2,h3,#navlinks,#menu,alt {
     font-family: "Days One";
     color: antiquewhite;
 }
@@ -89,6 +84,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 30px;
 }
 
 #crown {
@@ -100,6 +96,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 30px;
 }
 
 #curtains {
@@ -158,19 +155,7 @@ th {
     align-items: center;
 }
 
-#musical {
-    height: 150px;
-    width: 250px;
-    padding-bottom: 10px;
-}
-
-#soundboard {
-    height: 150px;
-    width: 250px;
-    padding-bottom: 10px;
-}
-
-#combat {
+.quarterpic {
     height: 150px;
     width: 250px;
     padding-bottom: 10px;
@@ -223,6 +208,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 5vh;
 }
 
 .sociallink {
@@ -275,27 +261,12 @@ footer {
         padding-top: 10px;
     }
 
-    #musical {
-        width: 576px;
-        height: 300px;
+    .quarterpic {
+        height: 150px;
+        width: 250px;
         padding-top: 10px;
         padding-bottom: 10px;
     }
-
-    #soundboard {
-        width: 576px;
-        height: 300px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-
-    #combat {
-        width: 576px;
-        height: 300px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-
 }
 
 /*Media query for laptops and larger devices*/
@@ -315,6 +286,12 @@ footer {
     }
 
     /*Main content*/
+    #homepage{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     #hero {
         width: 960px;
         height: 500px;
@@ -389,19 +366,10 @@ footer {
         max-width: 100vh;
     }
 
-    #musical {
-        width: 30vh;
-        height: 16vh;
-    }
-
-    #soundboard {
-        width: 30vh;
-        height: 16vh;
-    }
-
-    #combat {
-        width: 30vh;
-        height: 16vh;
+    .quarterpic {
+        height: 150px;
+        width: 250px;
+        padding-bottom: 10px;
     }
 
     /*Signup page*/
