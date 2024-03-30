@@ -339,6 +339,14 @@ footer {
     }
 
     /*Classes rules*/
+    .classpage{
+        height:50vh;
+    }
+
+    #classes{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 
     #classinfo {
         display: flex;
@@ -364,6 +372,7 @@ footer {
         flex-direction: row;
         justify-content: space-evenly;
         max-width: 100vh;
+        height: 35vh;
     }
 
     .quarterpic {
@@ -395,7 +404,7 @@ footer {
 
 @media screen and (min-width: 1440px) {
     /*Navbar*/
-    nav {
+   /**/ nav {
         display: block;
     }
 
@@ -407,6 +416,13 @@ footer {
         display: none;
     }
 
+    .classpage{
+        height:75vh;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     #quarterlies {
         display: flex;
         flex-direction: row;
@@ -414,18 +430,13 @@ footer {
         align-items: center;
     }
 
-    #musical {
-        width: 470px;
-        height: 235px;
+    .quarterly-info{
+        
     }
 
-    #soundboard {
-        width: 470px;
-        height: 235px;
-    }
-
-    #combat {
-        width: 470px;
-        height: 235px;
+    .quarterpic {
+        height: 150px;
+        width: 250px;
+        padding-bottom: 10px;
     }
 }
