@@ -105,20 +105,13 @@ footer {
 }
 
 /*Classes page rules*/
-#masks {
-    height: 150px;
-    width: 300px;
-}
-
 #classinfo {
     display: flex;
     flex-direction: column;
 }
 
-#maskbox {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.tablehead {
+    font-weight: 1000;
 }
 
 table {
@@ -133,8 +126,15 @@ th {
     color: antiquewhite;
 }
 
-.tablehead {
-    font-weight: 1000;
+#picbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#whitedress {
+    height: 384px;
+    width: 200px;
 }
 
 #quarterlies {
@@ -165,11 +165,14 @@ th {
 #join {
     display: flex;
     justify-content: center;
+    margin-top:10vh;
+    margin-bottom:10vh;
 }
 
 #join-h2 {
     display: flex;
     justify-content: center;
+    margin-top: 5vh;
 }
 
 .formclass {
@@ -219,7 +222,7 @@ footer {
     color: antiquewhite;
 }
 
-/*Media query for tablets and larger devices*/
+/*Media query for tablets*/
 @media screen and (min-width: 768px) {
 
     /*Navbar*/
@@ -248,17 +251,25 @@ footer {
         padding-bottom: 10px;
     }
 
-    #masks {
-        width: 576px;
-        height: 300px;
-        padding-right: 10px;
-        padding-bottom: 10px;
-    }
-
     #curtains {
         width: 576px;
         height: 300px;
         padding-top: 10px;
+    }
+
+    #whitedress {
+        width: 300px;
+        height: 576px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    #quarterlies{
+        align-items: center;
+    }
+
+    .quarterly-info{
+        width: 50vw;
     }
 
     .quarterpic {
@@ -268,10 +279,73 @@ footer {
         padding-bottom: 10px;
     }
 
-    #join, #contactmap{
-        height: 50vh;
-    }
 }
 
+/*Media query for laptops and larger devices*/
+@media screen and (min-width: 1024px){
+    /*Navbar*/
+    nav {
+        display: block;
+    }
 
+    #navbar {
+        display: none;
+    }
 
+    #menu {
+        display: none;
+    }
+
+    #hero {
+        width: 864px;
+        height: 450px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #about{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+
+    #crown {
+        width: 672px;
+        height: 350px;
+        padding-bottom: 10px;
+    }
+
+    #why-us{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+
+    #curtains {
+        width: 672px;
+        height: 350px;
+        padding-bottom: 10px;
+    }
+
+    #classes{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #classinfo{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    table{
+        height:150px;
+    }
+
+    
+}
