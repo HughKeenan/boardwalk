@@ -40,6 +40,8 @@ After adding the form, initially clicking on submit provided no feedback. It eme
 
 Links initially didn't work on deployment. This was due to the use of absolute links, and was rectified when these were changed to relative links
 
+Alts did not initially display as the default black text did not show up on the black background. The solution was taken from here: https://stackoverflow.com/questions/9044611/how-to-style-alt-text-color
+
 Deplyoment
 This was done by using the following steps:
 1. Going to the Settings page in the repository on GitHub

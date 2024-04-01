@@ -23,6 +23,10 @@ p {
     padding-right: 10px;
 }
 
+img{
+    color:antiquewhite;
+}
+
 header {
     background-color: rgb(197, 50, 50);
     margin-bottom: 0;
