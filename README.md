@@ -1,13 +1,16 @@
-Boardwalk Acting School
-Website for a fictional dramatic society based in Co. Carlow.
+# Boardwalk Acting School
+The Boardwalk Acting School is a website for a fictional dramatic society based in Co. Carlow.
 
 Boardwalk Acting School is a dramatic society based in the south-east of Ireland. It offers weekly classes in acting for adults and children teaching a range of techniques, with quarterly workshops in other disciplines such as directing. It offers a fun way for people to get involved in a hobby they might not have considered before, a chance to meet new people and overcome shyness and a fear of public speaking.
 
 The target user of this site is someone looking to get involved in acting who is new to it, or someone already involved looking to expand their skillset. Users of this site will learn about what the school offers as well as class times, pricing information and the benefits of acting as a hobby. It will also provide opportunities to try less commonly taught aspects of acting through the quarterly classes.
 
-Features:
+![image](https://github.com/HughKeenan/boardwalk/assets/160536272/136dfdec-0512-4551-b285-18f175523f9a)
+
+
+## Features:
 Navbar
-This is provided on every page and enables a user to navigate between the 3 sections of the site: the homepage, the class information, and the signup form to join the society. The version for mobile screens is hidden behind a "Menu" button that will provide it in a dropdown.
+This is provided at thew top of every page and enables a user to navigate between the 3 sections of the site: the homepage, the class information, and the signup form to join the society. The version for mobile screens is hidden behind a "Menu" button that will provide it in a dropdown.
 
 Landing page
 The groups name is prominently posted at the top of the page, and beneath it is information relating to the group. This explains who the club is and a brief account of what it offers, as well as establishing credentials and future plans. Beneath this is a section explaining some of the benefits of acting as a hobby.
