@@ -8,23 +8,23 @@ The target user of this site is someone looking to get involved in acting who is
 ![image](https://github.com/HughKeenan/boardwalk/assets/160536272/136dfdec-0512-4551-b285-18f175523f9a)
 
 ## Features:
-Navbar
+### Navbar
 This is provided at thew top of every page and enables a user to navigate between the 3 sections of the site: the homepage, the class information, and the signup form to join the society. The version for mobile screens is hidden behind a "Menu" button that will provide it in a dropdown. 
 ![image](https://github.com/HughKeenan/boardwalk/assets/160536272/a11a637d-d6cf-41e8-b9b7-8669ac1e1faf)
 ![image](https://github.com/HughKeenan/boardwalk/assets/160536272/d9eeea91-ed24-4daf-8a68-bc60b22295a9)
 
-Landing page
+### Landing page
 The groups name is prominently posted at the top of the page along with the hero image, and beneath it is information relating to the group. This explains who the club is and a brief account of what it offers, as well as establishing credentials and future plans. Beneath this is a section explaining some of the benefits of acting as a hobby.
 ![image](https://github.com/HughKeenan/boardwalk/assets/160536272/70d87639-8341-4d9b-8344-7cbcc9be2536)
 ![image](https://github.com/HughKeenan/boardwalk/assets/160536272/c737938d-ba83-428c-93ff-ce07aeff248f)
 ![image](https://github.com/HughKeenan/boardwalk/assets/160536272/32673d16-1e4e-4189-99de-201468d90793)
 
-Footer
+### Footer
 As with the navbar, this is the same on every page, and contains external links to the group's social media accounts. this benefits the group by increasing their followers and online visibility, and the user by helping them stay up to date on club news. As with the navbar, this has been colored in red; placed on either side of a black background it evokes the theme of a black box theatre.
 ![image](https://github.com/HughKeenan/boardwalk/assets/160536272/d48f77b7-b09d-4e31-b83f-24c391ab830b)
 
 
-Classes
+### Classes
 This page provides greater details about the classes offered for users who wish to know more. It provides a weekly timetable and pricing information, as well as details on special workshops for that quarter.
 ![image](https://github.com/HughKeenan/boardwalk/assets/160536272/0cc8c370-18c9-40ae-bf33-ce169bfae25a)
 ![image](https://github.com/HughKeenan/boardwalk/assets/160536272/a8af1019-3c3c-4def-b9b5-2fae12f40e83)
@@ -38,15 +38,15 @@ This page is for those who wish to join the society, who will be periodically up
 ## Testing
 Manual testing was conducted by using the links to navigate between the pages and all worked as intended, bringing the user to the intended destination. Using the inspect feature of the IDE, the look of the site on a mobile device screen was also examined. The site was opened on Google Chrome, Microsoft Edge and Firefox to ensure it worked on all of them. The form was also submitted on each. It was also tested through Lighthouse to ensure accessibility.
 
-Home page:
+### Home page:
 
-Classes page:
+### Classes page:
 
-Join page:
+### Join page:
 ![image](https://github.com/HughKeenan/boardwalk/assets/160536272/a675f90b-6808-40be-90ee-884044ec380b)
 
 
-Validator testing
+### Validator testing
 The site was run through the W3C validator for HTML and Jigsaw for CSS, and passed both with no errors.
 
 ## Bugs encountered:
@@ -65,7 +65,7 @@ Links initially didn't work on deployment. This was due to the use of absolute l
 Alts did not initially display as the default black text did not show up on the black background. The solution was taken from here: https://stackoverflow.com/questions/9044611/how-to-style-alt-text-color.
 
 ## Deplyoment
-This was done by using the following steps:
+### This was done by using the following steps:
 1. Going to the Settings page in the repository on GitHub
 2. Selecting Pages on the menu on the left hand side of that page
 3. Selecting "Deploy from a Branch" in the section marked Sourcxe and ensuring that the branch was set to main and the folder was set to /root.
@@ -74,7 +74,6 @@ This was done by using the following steps:
 6. moving to the deployments section on the right side of the code page and opening the link from there
 
 ## Credits
-Content
 Photos used in this site were taken from pexels.com.
 
 Icons for social media links were taken from font awesome (https://fontawesome.com/icons).
