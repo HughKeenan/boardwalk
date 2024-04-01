@@ -65,6 +65,8 @@ nav {
 /*Footer styling rules*/
 footer {
     background-color: rgb(197, 50, 50);
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #socials {
