@@ -7,7 +7,12 @@
 }
 
 /*General styling rules*/
-h1,h2,h3,#navlinks,#menu,alt {
+header {
+    background-color: rgb(197, 50, 50);
+    margin-bottom: 0;
+}
+
+h1,h2,h3,#navlinks,#menu{
     font-family: "Days One";
     color: antiquewhite;
 }
@@ -27,13 +32,8 @@ img{
     color:antiquewhite;
 }
 
-header {
-    background-color: rgb(197, 50, 50);
-    margin-bottom: 0;
-}
-
-.infotitle {
-    text-align: center;
+main {
+    background-color: black;
 }
 
 /*Navbar style rules*/
@@ -62,14 +62,24 @@ nav {
     list-style-type: none;
 }
 
-
-/*Main content general rules*/
-main {
-    background-color: black;
+/*Footer styling rules*/
+footer {
+    background-color: rgb(197, 50, 50);
 }
 
-footer {
-    padding: 0px;
+#socials {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5vh;
+}
+
+.sociallink {
+    font-size: 200%;
+}
+
+.socialcolor {
+    color: antiquewhite;
 }
 
 /*Home page rules*/
@@ -94,6 +104,10 @@ footer {
 #crown {
     height: 150px;
     width: 250px;
+}
+
+.infotitle {
+    text-align: center;
 }
 
 #why-us {
@@ -166,17 +180,17 @@ th {
 }
 
 /*Sign up page styles*/
+#join-h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
 #join {
     display: flex;
     justify-content: center;
     margin-top:10vh;
     margin-bottom:10vh;
-}
-
-#join-h2 {
-    display: flex;
-    justify-content: center;
-    margin-top: 5vh;
 }
 
 .formclass {
@@ -189,6 +203,9 @@ th {
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -204,26 +221,6 @@ th {
     padding-bottom: 10px;
     display: flex;
     justify-content: center;
-}
-
-/*Footer styling rules*/
-footer {
-    background-color: rgb(197, 50, 50);
-}
-
-#socials {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 5vh;
-}
-
-.sociallink {
-    font-size: 200%;
-}
-
-.socialcolor {
-    color: antiquewhite;
 }
 
 /*Media query for tablets*/
@@ -242,6 +239,7 @@ footer {
         display: none;
     }
 
+    /*Home page rules*/
     #hero {
         width: 672px;
         height: 350px;
@@ -261,6 +259,7 @@ footer {
         padding-top: 10px;
     }
 
+    /*Classes page rules*/
     #whitedress {
         width: 300px;
         height: 576px;
@@ -300,6 +299,7 @@ footer {
         display: none;
     }
 
+    /*Home page rules*/
     #hero {
         width: 864px;
         height: 450px;
@@ -335,6 +335,7 @@ footer {
         padding-bottom: 10px;
     }
 
+    /*Classes page rules*/
     #classes{
         display:flex;
         flex-direction: column;
@@ -350,6 +351,4 @@ footer {
     table{
         height:150px;
     }
-
-    
 }
