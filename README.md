@@ -59,6 +59,9 @@ Classes Page:
 Join Page:
 ![image](https://github.com/HughKeenan/boardwalk/assets/160536272/1ebc89dc-8840-4d1d-a043-7af776c379c2)
 
+CSS:
+![image](https://github.com/HughKeenan/boardwalk/assets/160536272/4707ab06-c6e4-4e97-8e01-30a647a08956)
+
 ## Bugs encountered:
 Icons for social media links initially would not display. This was resolved after re-examining the code and realising the embed kit from FontAwesome had not been added.
 
