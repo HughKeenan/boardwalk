@@ -1,7 +1,7 @@
 # Boardwalk Acting School
 The Boardwalk Acting School is a website for a fictional dramatic society based in Co. Carlow.
 
-Boardwalk Acting School is a dramatic society based in the south-east of Ireland. It offers weekly classes in acting for adults and children teaching a range of techniques, with quarterly workshops in other disciplines such as directing. It offers a fun way for people to get involved in a hobby they might not have considered before, a chance to meet new people and overcome shyness and a fear of public speaking.
+Boardwalk Acting School is a an acting school based in the south-east of Ireland. It offers weekly classes in acting for adults and children teaching a range of techniques, with quarterly workshops in other disciplines such as directing. It offers a fun way for people to get involved in a hobby they might not have considered before, a chance to meet new people and overcome shyness and a fear of public speaking.
 
 The target user of this site is someone looking to get involved in acting who is new to it, or someone already involved looking to expand their skillset. Users of this site will learn about what the school offers as well as class times, pricing information and the benefits of acting as a hobby. It will also provide opportunities to try less commonly taught aspects of acting through the quarterly classes.
 
