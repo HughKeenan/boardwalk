@@ -105,3 +105,6 @@ The code for embedding the map was taken from here: https://www.maps.ie/create-g
 The favicon came from here: https://favicon.io/emoji-favicons/performing-arts
 
 The solution for the problem of alts not displaying came from here: https://stackoverflow.com/questions/9044611/how-to-style-alt-text-color.
+
+## Acknowledgements
+I wish to acknowledge my mentor, Alan Bushell, who provided me with feedback and advice throughout this project
