@@ -30,7 +30,7 @@ This page provides greater details about the classes offered for users who wish 
 ![image](https://github.com/HughKeenan/boardwalk/assets/160536272/a8af1019-3c3c-4def-b9b5-2fae12f40e83)
 ![image](https://github.com/HughKeenan/boardwalk/assets/160536272/a1c82ef0-b09b-4156-ad84-970fc1fec58d)
 
-Joining page
+### Joining page
 This page is for those who wish to join the society, who will be periodically updated with information on future courses and productions being done by the society. Prospective members can also confirm whether they have prior acting experience, and the nature of it in greater detail using the text area. It also provides contact details for the group for anyone who as queries, as well as an embedded map to show the group's location
 ![image](https://github.com/HughKeenan/boardwalk/assets/160536272/2e73aa59-ff1c-48be-82c8-39d41b5c88db)
 ![image](https://github.com/HughKeenan/boardwalk/assets/160536272/a5622fca-7ae0-4a5e-80cf-13a3a2e82a26)
@@ -46,7 +46,6 @@ Manual testing was conducted by using the links to navigate between the pages an
 
 ### Join page:
 ![image](https://github.com/HughKeenan/boardwalk/assets/160536272/1be62b8c-a686-4dd0-b0b3-104818e0251f)
-
 
 ### Validator testing
 The site was run through the W3C validator for HTML and Jigsaw for CSS, and passed both with no errors.
@@ -67,7 +66,7 @@ Could not change color on social media icons. This was resolved after removing a
 
 Nav links were initially unresponsive and produced a 404 error. After review of information contained in the following link https://www.geeksforgeeks.org/how-to-create-links-to-sections-within-the-same-page-in-html/ it was determined that href links had not been equipped with the # symbol to denote the destination. Once added they were responsive.
 
-When attempting to add images, the initial attempt to add in html resulted in an image too large for the page. A second attempt to add through css did not display the whole image. A subsequent attempt wherein the image was uploaded through html and the size was dictated by css was successful.
+When attempting to add images, the initial attempt to add in html resulted in an image too large for the page. A second attempt to add through css did not display the whole image. A third attempt wherein the image was uploaded through html and the size was dictated by css was successful.
 
 After adding the form, initially clicking on submit provided no feedback. It emerged on reexamining the code that the action had not been properly set. Once added, the form worked as intended.
 
@@ -86,14 +85,14 @@ Alts did not initially display as the default black text did not show up on the 
 
 ## Credits
 Photos used in this site were taken from pexels.com:
-https://www.pexels.com/photo/theater-interior-109669/
-https://www.pexels.com/photo/man-wearing-crown-1083855/
-https://www.pexels.com/photo/people-at-theater-713149/
-https://www.pexels.com/photo/woman-wearing-white-dress-raising-her-hands-2769657/
-https://www.pexels.com/photo/two-dancing-men-on-stage-1581906/
-https://www.pexels.com/photo/multicolored-mixing-console-306088/
-https://www.pexels.com/photo/man-holding-sword-3408420/
-https://www.pexels.com/photo/red-human-face-monument-on-green-grass-field-189449/
+1. https://www.pexels.com/photo/theater-interior-109669/
+2. https://www.pexels.com/photo/man-wearing-crown-1083855/
+3. https://www.pexels.com/photo/people-at-theater-713149/
+4. https://www.pexels.com/photo/woman-wearing-white-dress-raising-her-hands-2769657/
+5. https://www.pexels.com/photo/two-dancing-men-on-stage-1581906/
+6. https://www.pexels.com/photo/multicolored-mixing-console-306088/
+7. https://www.pexels.com/photo/man-holding-sword-3408420/
+8. https://www.pexels.com/photo/red-human-face-monument-on-green-grass-field-189449/
 
 Icons for social media links were taken from font awesome (https://fontawesome.com/icons).
 
@@ -104,3 +103,5 @@ Information on how to fix navlinks was found here: https://www.geeksforgeeks.org
 The code for embedding the map was taken from here: https://www.maps.ie/create-google-map/
 
 The favicon came from here: https://favicon.io/emoji-favicons/performing-arts
+
+The solution for the problem of alts not displaying came from here: https://stackoverflow.com/questions/9044611/how-to-style-alt-text-color.
