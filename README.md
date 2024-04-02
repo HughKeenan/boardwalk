@@ -39,15 +39,26 @@ This page is for those who wish to join the society, who will be periodically up
 Manual testing was conducted by using the links to navigate between the pages and all worked as intended, bringing the user to the intended destination. Using the inspect feature of the IDE, the look of the site on a mobile device screen was also examined. The site was opened on Google Chrome, Microsoft Edge and Firefox to ensure it worked on all of them. The form was also submitted on each. It was also tested through Lighthouse to ensure accessibility.
 
 ### Home page:
+![image](https://github.com/HughKeenan/boardwalk/assets/160536272/8e974d1d-1e12-4acb-a329-40fa8d1b76de)
 
 ### Classes page:
+![image](https://github.com/HughKeenan/boardwalk/assets/160536272/00a0a6b5-27da-434e-9690-8a6d259a3861)
 
 ### Join page:
-![image](https://github.com/HughKeenan/boardwalk/assets/160536272/a675f90b-6808-40be-90ee-884044ec380b)
+![image](https://github.com/HughKeenan/boardwalk/assets/160536272/1be62b8c-a686-4dd0-b0b3-104818e0251f)
 
 
 ### Validator testing
 The site was run through the W3C validator for HTML and Jigsaw for CSS, and passed both with no errors.
+
+Home Page:
+![image](https://github.com/HughKeenan/boardwalk/assets/160536272/a5663530-c25a-4d34-b59e-cb0606669817)
+
+Classes Page:
+![image](https://github.com/HughKeenan/boardwalk/assets/160536272/3159bdee-baf3-4891-b74e-01a0a5191598)
+
+Join Page:
+![image](https://github.com/HughKeenan/boardwalk/assets/160536272/1ebc89dc-8840-4d1d-a043-7af776c379c2)
 
 ## Bugs encountered:
 Icons for social media links initially would not display. This was resolved after re-examining the code and realising the embed kit from FontAwesome had not been added.
@@ -74,7 +85,15 @@ Alts did not initially display as the default black text did not show up on the 
 6. moving to the deployments section on the right side of the code page and opening the link from there
 
 ## Credits
-Photos used in this site were taken from pexels.com.
+Photos used in this site were taken from pexels.com:
+https://www.pexels.com/photo/theater-interior-109669/
+https://www.pexels.com/photo/man-wearing-crown-1083855/
+https://www.pexels.com/photo/people-at-theater-713149/
+https://www.pexels.com/photo/woman-wearing-white-dress-raising-her-hands-2769657/
+https://www.pexels.com/photo/two-dancing-men-on-stage-1581906/
+https://www.pexels.com/photo/multicolored-mixing-console-306088/
+https://www.pexels.com/photo/man-holding-sword-3408420/
+https://www.pexels.com/photo/red-human-face-monument-on-green-grass-field-189449/
 
 Icons for social media links were taken from font awesome (https://fontawesome.com/icons).
 
