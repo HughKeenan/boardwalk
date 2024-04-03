@@ -39,28 +39,41 @@ This page is for those who wish to join the society, who will be periodically up
 Manual testing was conducted by using the links to navigate between the pages and all worked as intended, bringing the user to the intended destination. Using the inspect feature of the IDE, the look of the site on a mobile device screen was also examined. The site was opened on Google Chrome, Microsoft Edge and Firefox to ensure it worked on all of them. The form was also submitted on each. It was also tested through Lighthouse to ensure accessibility.
 
 ### Home page:
-![image](https://github.com/HughKeenan/boardwalk/assets/160536272/8e974d1d-1e12-4acb-a329-40fa8d1b76de)
+![alt text](image.png)
 
 ### Classes page:
-![image](https://github.com/HughKeenan/boardwalk/assets/160536272/00a0a6b5-27da-434e-9690-8a6d259a3861)
+![alt text](image-1.png)
 
 ### Join page:
-![image](https://github.com/HughKeenan/boardwalk/assets/160536272/1be62b8c-a686-4dd0-b0b3-104818e0251f)
+![alt text](image-2.png)
+
+|Test|Result|
+|-----|------|
+|All links in Navbar lead to designated pages|Passed|
+|Navbar hides and is replaced with Menu button on screens smaller than 768px|Passed|
+|Form cannot be submitted if required fields are blank|Passed|
+|Form submits successfully when filled in|Passed|
+|Embedded map can be interacted with, moved and zoomed in and out|Passed|
+|Layout and images are responsive to changes in screen size|Passed|
+
 
 ### Validator testing
-The site was run through the W3C validator for HTML and Jigsaw for CSS, and passed both with no errors.
+The site was run through the W3C validator for HTML and Jigsaw for CSS
 
 Home Page:
-![image](https://github.com/HughKeenan/boardwalk/assets/160536272/a5663530-c25a-4d34-b59e-cb0606669817)
+![alt text](image-3.png)
 
 Classes Page:
-![image](https://github.com/HughKeenan/boardwalk/assets/160536272/3159bdee-baf3-4891-b74e-01a0a5191598)
+![alt text](image-4.png)
 
 Join Page:
-![image](https://github.com/HughKeenan/boardwalk/assets/160536272/1ebc89dc-8840-4d1d-a043-7af776c379c2)
+![alt text](image-5.png)
+
+The results showed no errors and 2 warnings about using h1 items as top level headers only for each page. The h1 item had to be used as it was the first heading in each section where it was used
 
 CSS:
-![image](https://github.com/HughKeenan/boardwalk/assets/160536272/4707ab06-c6e4-4e97-8e01-30a647a08956)
+![alt text](image-6.png)
+The results showed no errors or warnings
 
 ## Bugs encountered:
 Icons for social media links initially would not display. This was resolved after re-examining the code and realising the embed kit from FontAwesome had not been added.
@@ -108,6 +121,8 @@ The code for embedding the map was taken from here: https://www.maps.ie/create-g
 The favicon came from here: https://favicon.io/emoji-favicons/performing-arts
 
 The solution for the problem of alts not displaying came from here: https://stackoverflow.com/questions/9044611/how-to-style-alt-text-color.
+
+The information on how to add aria tags was obtained here: https://savvas.me/accessibility/problem-with-social-icons
 
 ## Acknowledgements
 I wish to acknowledge my mentor, Alan Bushell, who provided me with feedback and advice throughout this project
